@@ -1,0 +1,486 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+   color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 33px;
+    box-shadow: 0px 1px 5px 0px  rgb(252, 252, 252);
+}
+.logo h1 {
+	font-size: 51px;
+	color: rgb(255, 106, 0);
+	margin-top: 12px;
+}
+.icon {
+	margin-left: 143px;
+	font-size: 59px;
+	margin: 5px ;
+    cursor: pointer;
+}
+.icon i {
+	font-size: 36px;
+	margin-inline: 8px;
+	background-color: #fff;
+	color: black;
+	padding: 17px;
+	border-radius: 7px;
+}
+.icon i:hover{
+    color: rgb(255, 98, 0);
+    cursor: pointer;
+}
+nav input {
+	width: 634px;
+	padding: 27px;
+	height: 32px;
+	border: rgba;
+	outline: none;
+	font-size: 32px;
+	border-radius: 18px;
+}
+.input i {
+	margin-left: -55px;
+	color: black;
+	font-size: 34px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main img {
+	width: 30%;
+	margin-top: -44px;
+}
+.main .text {
+	width: 927px;
+	margin-top: 122px;
+}
+.text h1 {
+	font-size: 98px;
+}
+.text p {
+	color: #f6f5f5;
+	margin-top: 17px;
+	font-size: x-large;
+}
+.text button {
+	margin-top: 60px;
+	border: none;
+	outline: none;
+	background-color: rgb(255, 119, 0);
+	color: white;
+	border-radius: 12px;
+	font-size: 25px;
+	width: 180px;
+	height: 49px;
+    cursor: pointer;
+}
+.span {
+	text-align: center;
+	font-size: 52px;
+	margin-top: 104px;
+	margin-left: 67px;
+}
+/* Apply styles to align the headings */
+
+.crd {
+	display: flex;
+	justify-content: stretch;
+	margin-left: 269px;
+	color: black;
+	margin-right: 30px;
+}
+.crd .card {
+          width: 460px;
+        background-color: #fff;
+        border-radius: 25px;
+        padding: 23px;
+        color: black;
+        margin-inline: 213px;
+        margin-top: 91px;
+        margin-left: 21px;
+    }
+.card img{
+    width: 100%;
+}
+.card h2{
+    margin-top: 12px;
+}
+
+.card p{
+    margin-top: 12px;
+}
+
+.card button{
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    border-radius: 2px;
+    font-size: 22px;
+    width: 140px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.blog {
+	width: 451px;
+	background-color: #fff;
+	border-radius: 29px;
+	padding: 65px;
+	color: black;
+	margin-inline: 79px;
+	margin-inline: 54px;
+	margin-block: 101px;
+}
+.blog h2{
+    margin-top: 12px;
+}
+.blog p{
+    margin-top: 12px;
+}
+.blog a{
+    position: relative;
+    top: 32px;
+    width: 160px;
+    padding: 10px;
+    background-color: rgb(255, 106, 0);
+    color: white;
+    font-size: 20px;
+    border-radius: 2px;
+}
+.blog img{
+    width: 100%;
+}
+.review {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	margin: auto;
+	width: 1012px;
+	height: 485px;
+	margin-top: 98px;
+	border-radius: 14px;
+}
+.review .customer {
+	position: absolute;
+	width: 100%;
+	height: 94%;
+	background-color: #fff;
+	color: black;
+	text-align: center;
+	padding: 16px;
+	transition: 0.5s ease;
+}
+.customer img {
+	width: 27%;
+	border-radius: 50%;
+}
+.customer i {
+	font-size: 26px;
+	color: rgb(255, 132, 0);
+	margin-top: 16px;
+	margin-inline: 5px;
+}       
+
+p {
+	font-size: 17px;
+	margin-top: 8px;
+}
+.head h1 {
+	text-align: center;
+	font-size: 71px;
+	margin-left: 64px;
+	margin-top: 77px;
+}
+.head span{
+    color: rgb(255, 119, 0);
+}
+.btn {
+	text-align: center;
+	margin-top: 60px;
+}
+.btn button {
+	width: 180px;
+	height: 58px;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+	color: white;
+	font-size: 33px;
+	margin-inline: 8px;
+	background-color: rgb(255, 111, 0);
+	cursor: pointer;
+	margin-bottom: 113px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 55px;
+    margin-top: 77px;
+    
+}
+
+.footer .txt{
+    color: black;
+}
+.txt p{
+    margin-top: 12px;
+}
+
+/* Login */
+
+.login{
+    display: none;
+    position: absolute;
+    margin-left: 80%;
+    width: 200px;
+    padding: 22px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 6px;
+}
+.login h2{
+    color: black;
+}
+.login input{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 160px;
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 13px;
+}
+.login button{
+    width: 140px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 111, 0);
+    color: white;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 22px;
+}
+/* nav */
+
+.nav{
+    display: none;
+    position: absolute;
+    margin-left: 82%;
+    width: 160px;
+    padding: 22px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 6px;   
+}
+.nav P{
+    width: 110px;
+    color: black;
+    margin-left: 20%;
+    padding: 11px;
+    border-radius: 4px;
+}
+.nav p:hover{
+    background-color: #f1efef;
+    color: rgb(255, 111, 0);
+    cursor: pointer;
+    
+}
+
+.menu{
+    margin: 3px;
+    padding: 2px;
+}
+.map{
+    
+    
+        margin-top: -93px;
+        position: relative;
+        padding: 136px;
+        border: whitesmoke;
+        border-radius: 0px;
+    
+}
+.txt .h2{
+
+        margin: 0%;
+        padding: 0%;
+        font-size: 45px;
+        text-align: center;
+}
+
+/* CSS for Slider*/
+
+/*.slip{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    object-fit: cover;
+
+}*/
+
+.slip{
+    border-width: 100%;
+    width: 100%;
+}
+
+.slider {
+	width: 100%;
+	height: 100%;
+	max-width: 781px;
+	height: 570px;
+	border-radius: 2px;
+	overflow: hidden;
+	margin-inline: auto;
+}
+  
+  .slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    width: 800px;
+    height: 500px;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .navigation-manual{
+    position: center;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .manual-btn{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: orange;
+  }
+  
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: absolute;
+    display: none;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+  }
+  
+  .navigation-auto div{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: transparent;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: transparent;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: transparent;
+  }
+  
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: transparent;
+  }
+  .chef .info {
+    margin-left: -18px;
+  }
+  .info h2 {
+    margin-top: 13px;
+    margin-left: 1239px;
+  }
+  .info p {
+    margin-top: 5px;
+    margin-left: 1215px;
+    font-size: 19px;
+  }
+.info a{
+    position: relative;
+    top: 32px;
+    width: 160px;
+    padding: 10px;
+    background-color: rgb(255, 106, 0);
+    color: white;
+    font-size: 20px;
+    border-radius: 2px;
+    margin-left: 1265px;
+      
+    
+}
+.info img {
+	width: 450px;
+	margin-left: 1067px;
+	margin-top: 38px;
+	padding: 35px;
+	background: #161414;
+	border-radius: 14px;
+}
